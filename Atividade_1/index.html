@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/img/css/style.css" />
   </head>
+
   <body>
     <nav>
-      <ul>
+      <ul id="menu">
         <li>
           <a href="index.html">Home</a>
         </li>
@@ -18,32 +20,73 @@
       </ul>
     </nav>
 
-    <h1>Hello World</h1>
-    <h3>Seja bem-vinde à minha primeira página HTML</h3>
+    <h1 class="center">Hello World</h1>
+    <h2 class="center">Seja bem-vinde à minha primeira página HTML</h2>
+    <div class="container">
+      <div>
+        <img
+          class="br-50 wh-300 p-30"
+          src="./assets/img/helloworld.png"
+          alt="Foto do código Hello World no VS Code"
+        />
+      </div>
 
-    <p>
-      O termo “Hello World” (Olá Mundo) é bastante utilizado para iniciar
-      programas, muitos dizem que se você começar aprender uma linguagem de
-      programação e não fazer aparecer na tela este termo, você nunca irá
-      aprender está linguagem. Por isso, em minha primeira página html eu, não
-      quis quebrar a tradição.
-    </p>
+      <div class="p-30">
+        <p class="justify">
+          O termo “Hello World” (Olá Mundo) é bastante utilizado para iniciar
+          programas, muitos dizem que se você começar aprender uma linguagem de
+          programação e não fazer aparecer na tela este termo, você nunca irá
+          aprender está linguagem. Por isso, em minha primeira página html eu,
+          não quis quebrar a tradição.
+        </p>
+        <p class="justify">
+          Fundamentos da Web: O HTML é a base da programação (como se fosse o
+          esqueleto o corpo), o CSS é o que dá estilo aos códigos (como se fosse
+          a roupa que a pessoa utiliza) e o Javascript é o que dá movimento e
+          ação (como se fosse o espírito do corpo).
+        </p>
+      </div>
+    </div>
 
-    <img
-      src="./assets/img/helloworld.png"
-      alt="Foto do código Hello World no VS Code"
-    />
+    <h2 class="center">Como fazer um Hello World em JavaScript:</h2>
 
-    <h2>Como fazer um Hello World em JavaScript:</h2>
+    <div class="container mb-50">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/r8QRt2W8fNA?start=53"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <hr />
+    <footer>
+      <div class="container">
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="./assets/img/linkedin.png"
+            alt="Logo do linkedin"
+        /></a>
+        <a href="https://gmail.com/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="./assets/img/gmail.png"
+            alt="Logo do gmail"
+        /></a>
+        <a href="https://github.com/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="./assets/img/github.png"
+            alt="Logo do github"
+        /></a>
+      </div>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/r8QRt2W8fNA?start=53"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+      <p class="center">
+        Todos os direitos reservados por Priscila Oliveira &copy
+      </p>
+    </footer>
   </body>
 </html>
